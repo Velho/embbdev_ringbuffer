@@ -45,4 +45,4 @@ enum error_type is_buffer_empty(struct buffer_type *b);
 int get_buffer_length(struct buffer_type *b);
 
 extern unsigned char transmission_buffer[MAX_BUFFER];
-extern unsigned char recive_buffer[MAX_BUFFER];
+extern unsigned char receive_buffer[MAX_BUFFER];
